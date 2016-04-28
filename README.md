@@ -5,11 +5,17 @@
 Wraps matched strings with a highlight span:
 
 ```js
-<Highlight
-    className="highlight" // defaults to 'highlight'
-    term=""> // string to highlight
-    { /* text to highlight */ }
-</Highlight>
+const Highlighter = require('react-string-highlighter');
+
+module.exports = () => {
+    return (
+        <Highlight
+            className="highlight" // defaults to 'highlight'
+            term=""> // string to highlight
+            { /* text to highlight */ }
+        </Highlight>
+    );
+};
 ```
 
 #License
