@@ -1,0 +1,26 @@
+{
+  "name": "react-highlighter",
+  "version": "0.0.1",
+  "description": "Highlight matched strings",
+  "main": "index.js",
+  "scripts": {
+    "debug": "iron-node debug",
+    "test": "node --use_strict --harmony_destructuring test | tap-dot"
+  },
+  "author": "Joseph Clay",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "react": "^15.0.1"
+  },
+  "devDependencies": {
+    "iron-node": "^2.2.17",
+    "tap-dot": "^1.0.1",
+    "tape": "^4.2.2"
+  }
+}
