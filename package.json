@@ -1,5 +1,5 @@
 {
-  "name": "react-highlighter",
+  "name": "react-string-highlighter",
   "version": "0.0.1",
   "description": "Highlight matched strings",
   "main": "index.js",
