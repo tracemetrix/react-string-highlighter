@@ -1,6 +1,6 @@
 {
   "name": "react-string-highlighter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Highlight matched strings",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,14 @@
     "transform": [
       "babelify"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/pivotall/react-string-highlighter/issues"
+  },
+  "homepage": "https://github.com/pivotall/react-string-highlighter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pivotall/react-string-highlighter.git"
   },
   "dependencies": {
     "lodash": "^4.11.1",
